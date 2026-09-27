@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ArtSpace Community</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f5f5f5;
+            color: #333;
+        }
+
+        header {
+            background-color: #6c5ce7;
+            color: white;
+            text-align: center;
+            padding: 30px;
+        }
+
+        nav {
+            background-color: #4834d4;
+            text-align: center;
+            padding: 12px;
+        }
+
+        nav a { 
+            color:white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            color: #ffeaa7;
+        }
+
+        section {
+            background-color: transparent;
+            margin: 25px auto;
+            padding: 10px 0;
+            width: 80%;
+            border-bottom: 2px solid #e0e0e0;
+            box-shadow: none;
+            border-radius: 12px;
+        }
+
+        h2 {
+            color: #6c5ce7;
+        }
+
+        .program {
+            display: flex;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+
+        .card {
+            padding: 20px;
+            border-radius: 10px;
+            flex: 1;
+            min-width: 200px;
+        }
+
+        footer {
+            background-color: #4834d4;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 30px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>ArtSpace Community</h1>
+        <p>Create • Inspire • Share</p>
+    </header>
+
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#about">Tentang</a>
+        <a href="#program">Program</a>
+        <a href="#kontak">Kontak</a>
+    </nav>
+
+    <section id="home">
+        <h2> Selamat Datang!</h2>
+        <p>
+             ArtSpace Community adalah organisasi pelajar yang menjadi tempat untuk mengembangkan kreativitas, terutama dalam bidang seni dan ilustrasi.
+        </p>
+    </section>
+
+    <section id="about">
+        <h2>Tentang Organisasi</h2>
+        <p>
+            ArtSpace Community didirikan sebagai wadah bagi para pelajar yang memiliki minat terhadap seni, desain, ilustrasi, dan berbagai bentuk kreativitas lainnya.
+        </p>
+
+        <p>
+            Organisasi ini mendorong anggotanya untuk berani berkarya, berbagi ide, dan saling mendukung mengembangkan kemampuan.
+        </p>
+    </section>
+    
+    <section>
+        <h2>Visi & Misi</h2>
+
+        <h3>Visi</h3>
+        <p>
+            Menjadi wadah kreatif bagi belajar untuk mengembangkan bakat, mengekspresikan diri, dan berkarya melalui seni serta ilustrasi.
+        </p>
+        <h3>Misi</h3>
+        <ol>
+            <li>Mengembangkan kemampuan seni dan ilustrasi anggota</li>
+            <li>mendorong anggota untuk berani mengekspresikan ide</li>
+            <li>menciptakan lingkungan untuk berbagi ilmu dan inspirasi</li>
+            <li>mengadakan kegiatan seperti drawing class, workshop, dan pameran seni</li>
+            <li>membangun komunitas yang saling mendukung dan menghargai karya</li>
+        </ol>
+    </section>
+
+    <section id="program">
+        <h2>Program Kegiatan</h2>
+
+        <div class="program">
+
+            <div class="card">
+                <h3>🎨Drawing Class</h3>
+                <p>
+                    Kegiatan belajar menggambar dan meningkatkan kemampuan ilustrasi anggota.
+                </p>
+            </div>
+
+            <div class="card">
+                <h3>🖌Art Exhibition</h3>
+                <p>
+                    Pameran karya anggota untuk memperkenalkan hasil kreativitas kepada masyarakat.
+                </p>
+            </div>
+
+            <div class="card">
+                <h3>💡Creative Workshop</h3>
+                <p>
+                    Workshop untuk mempelajari berbagai teknik
+                    seni dan desain.
+                </p>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="kontak">
+        <h2>Kontak</h2>
+        <fieldset>
+                <legend>form hubungi saya</legend>
+                <label>Nama:</label><br>
+                <input type="text" placeholder="masukkan nama..."><br><br>
+                <label>Email:</label><br>
+                <input typr="email" placeholder="masukkan email..."><br><br>
+                <label>Password</label><br>
+                <input type="pesan" placeholder="masukkan pesan..."><br><br>
+                <input type="checkbox" id="setuju" name="setuju">                               
+                <label for="setuju">saya setuju mengirim pesan.</label>
+                <input type="submit" value="kirim">
+        </fieldset>
+
+        <a href="https://wa.me/6282361945746" target="_blank">hubungi saya via WhatsApp</a>
+    </section>
+
+</body>
+</html>
